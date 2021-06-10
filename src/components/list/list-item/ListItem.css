@@ -1,0 +1,12 @@
+tr.visit {
+    background-color: grey;
+}
+
+tr.visited {
+    background-color: purple;
+    color: #000000;
+}
+
+.dropdown {
+    cursor: pointer;
+}

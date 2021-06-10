@@ -1,0 +1,27 @@
+.capitals-table thead th {
+    cursor: pointer;
+}
+
+th > .fas, th .sorting-icon {
+    display: none;
+}
+
+th.sorting.asc .fas.fa-caret-up {
+    display: inline-block;
+}
+
+th.sorting.desc .fas.fa-caret-down {
+    display: inline-block;
+}
+
+.input-group-addon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group-addon .fas {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px 0 10px;
+}
